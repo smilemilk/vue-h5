@@ -1,0 +1,1 @@
+module.exports = "http://appnew.91iji.com/api"

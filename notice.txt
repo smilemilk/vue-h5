@@ -1,0 +1,24 @@
+注意：开发和上线时一定切换里的request.js环境（并检查changeServer.js里的url）！！！
+
+打包： {
+    配置url：changeServer.js package.json
+    命令:package.json里scripts配置的参数
+    注意：request.js切换环境
+    npm run production
+}
+
+开发： {
+    本机ip：build/dev-server.js
+    代理url：config/index.js
+    注意：request.js切换环境
+    npm run dev
+}
+
+
+ build里面的server.js是自动生成的  不要更改
+
+
+ 注意：
+ 因为 注册页的接口与商品详情的(后台的)接口不同  为了能在一个项目中运行 做以下处理
+ 1.开发时需要切换代理的地址
+ 2.生产时依后台的接口为准  因为在页面中设置了当开发时默认使用页面中配置的url

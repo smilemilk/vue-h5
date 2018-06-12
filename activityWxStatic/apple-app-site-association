@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "V2LZUSBBPN.com.apple.wwdc",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
