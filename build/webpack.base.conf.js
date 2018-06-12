@@ -50,6 +50,7 @@ module.exports = {
         fallback: [path.join(__dirname, '../node_modules')]
     },
     externals: {
+        mui: 'mui'
         //'jquery': 'jQuery'  // 使用cdn资源，暴露jquery
     },
     module: {
