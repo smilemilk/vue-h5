@@ -55,7 +55,7 @@ app.use(hotMiddleware)
 
 // serve pure static assets
 var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
-app.use(staticPath, express.static('./activityWxStatic'))
+app.use(staticPath, express.static('./commonStatic'))
 
 module.exports = app.listen(port, function (err) {
     if (err) {
@@ -63,7 +63,7 @@ module.exports = app.listen(port, function (err) {
         return
     }
 
-    var uri = 'http://172.16.21.23:' + port + '/activityWx/rushPurchaseGood.html?activityLinkId=26' // 直接显示页面
+    var uri = 'http://172.16.21.23:' + port + '/pages/rushPurchaseGood.html?activityLinkId=26' // 直接显示页面
     // console.log('Listening at ' + uri + '\n')
     opn(uri)
 })

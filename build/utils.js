@@ -110,7 +110,7 @@ exports.getEntries = function (globPath,type) {
             var arr = entry.split('/');
             var j = 0;
             for (var i = 0; i < arr.length; i++) {
-                if (arr[i] === 'activityWx') {
+                if (arr[i] === 'pages') {
                     j = i;
                     break;
                 }
@@ -125,7 +125,7 @@ exports.getEntries = function (globPath,type) {
             var arr2 = entry.split('/');
             var j2 = 0;
             for (var i2 = 0; i2 < arr2.length; i2++) {
-                if (arr2[i2] === 'activityWx') {
+                if (arr2[i2] === 'pages') {
                     j2 = i2;
                     break;
                 }

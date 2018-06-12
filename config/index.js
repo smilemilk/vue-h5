@@ -5,7 +5,7 @@ module.exports = {
         env: require('./prod.env'),
         //index: path.resolve(__dirname, '../dist/index.html'),
         assetsRoot: path.resolve(__dirname, '../dist'),
-        assetsSubDirectory: 'activityWxStatic',
+        assetsSubDirectory: 'commonStatic',
         assetsPublicPath: '/',
         productionSourceMap: true,
         productionGzip: false,
@@ -14,7 +14,7 @@ module.exports = {
     dev: {
         env: require('./dev.env'),
         port: 8070,
-        assetsSubDirectory: 'activityWxStatic',
+        assetsSubDirectory: 'commonStatic',
         assetsPublicPath: '/',
         // proxyTable: { // 代理
         //     '/admin': {

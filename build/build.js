@@ -21,7 +21,7 @@ var assetsPath = path.join(config.build.assetsRoot, config.build.assetsSubDirect
 
 rm('-rf', assetsPath)  // 删除 assetsPath(dist/wapStatic) 目录下的文件及目录， 忽略不存在的目录
 mkdir('-p', assetsPath) // 若路径中的某些目录尚不存在, 系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录
-cp('-R', 'activityWxStatic/*', assetsPath) // 复制目录及目录内的所有项目
+cp('-R', 'commonStatic/*', assetsPath) // 复制目录及目录内的所有项目
 
 webpack(webpackConfig, function (err, stats) {
     spinner.stop()

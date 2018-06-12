@@ -17,7 +17,7 @@ console.log('useCssSourceMap: ', useCssSourceMap);
 
 var projectRoot = path.resolve(__dirname, '../')
 var srcDir = path.resolve(__dirname, '../src')
-var entries = utils.getEntries(srcDir + '/activityWx/**/*.js')
+var entries = utils.getEntries(srcDir + '/pages/**/*.js')
 
 var autoprefixerConf = autoprefixer({ browsers: ['last 2 versions','Android >= 4.0','iOS >= 6'] });
 
@@ -123,7 +123,7 @@ module.exports = {
         new webpack.ProvidePlugin({$: 'webpack-zepto'})
     ]
 }
-var pages = utils.getEntries('./src/activityWx/**/*.html',1);
+var pages = utils.getEntries('./src/pages/**/*.html',1);
 
 for (var pathname in pages) {
     // console.log(pathname, pages[pathname])

@@ -155,7 +155,7 @@ export default {
               title: wxTitle, // 分享标题
               desc: wxContent, // 分享描述
               link: wxHref, // 分享链接
-              imgUrl: wxImg || 'http://h5.91iji.com/activityWxStatic/img/logo.png', // 分享图标
+              imgUrl: wxImg || 'http://h5.91iji.com/commonStatic/img/logo.png', // 分享图标
               type: '', // 分享类型,music、video或link，不填默认为link
               dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
               success: function() {
@@ -170,7 +170,7 @@ export default {
             wx.onMenuShareTimeline({ //分享朋友圈
               title: wxTitle, // 分享标题
               link: wxHref,
-              imgUrl: wxImg || 'http://h5.91iji.com/activityWxStatic/img/logo.png', // 分享图标
+              imgUrl: wxImg || 'http://h5.91iji.com/commonStatic/img/logo.png', // 分享图标
               success: function() {
                 // 用户确认分享后执行的回调函数
               },
@@ -182,7 +182,7 @@ export default {
               title: wxTitle, // 分享标题
               desc: wxContent, // 分享描述
               link: wxHref, // 分享链接
-              imgUrl: wxImg || 'http://h5.91iji.com/activityWxStatic/img/logo.png', // 分享图标
+              imgUrl: wxImg || 'http://h5.91iji.com/commonStatic/img/logo.png', // 分享图标
               type: '', // 分享类型,music、video或link，不填默认为link
               dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
               success: function() {
@@ -198,7 +198,7 @@ export default {
               title: wxTitle, // 分享标题
               desc: wxContent, // 分享描述
               link: wxHref, // 分享链接
-              imgUrl: wxImg || 'http://h5.91iji.com/activityWxStatic/img/logo.png', // 分享图标
+              imgUrl: wxImg || 'http://h5.91iji.com/commonStatic/img/logo.png', // 分享图标
               type: '', // 分享类型,music、video或link，不填默认为link
               dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
               success: function() {
@@ -214,7 +214,7 @@ export default {
               title: wxTitle, // 分享标题
               desc: wxContent, // 分享描述
               link: wxHref, // 分享链接
-              imgUrl: wxImg || 'http://h5.91iji.com/activityWxStatic/img/logo.png', // 分享图标
+              imgUrl: wxImg || 'http://h5.91iji.com/commonStatic/img/logo.png', // 分享图标
               type: '', // 分享类型,music、video或link，不填默认为link
               dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
               success: function() {
