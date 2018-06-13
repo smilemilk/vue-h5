@@ -24,8 +24,7 @@
 import toast from "../../components/toast"; //提示框
 import loading from "../../components/loading"; //加载loading
 // import axios from "axios";
-import {get} from "js/interface/api-factory"
-import { h5Request, getUuid, Base64 } from "js/h5Request";
+// import {get, post} from "js/interface/api-factory"
 import _ from 'lodash'
 import mui from 'mui'
 
@@ -45,7 +44,7 @@ export default {
     };
   },
   created() {
-    this.uuid = getUuid(32);
+    // this.uuid = getUuid(32);
     this.getData();
   },
   mounted() {
@@ -56,9 +55,9 @@ export default {
   },
   methods: {
     getData() {
-      get('inpatient/getInpatientInsDetail', {'productNo': '1000028'}).then(response => {
-        console.log(response)
-      })
+      // get('inpatient/getInpatientInsDetail', {'productNo': '1000028'}).then(response => {
+      //   console.log(response)
+      // })
     },
     showtoast(data) {
       this.toast.isshow = true;
