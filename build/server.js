@@ -1,1 +1,1 @@
-module.exports = "http://appnew.91iji.com/api"
+module.exports = "http://appyfb.91iji.com/api"

@@ -16,3 +16,23 @@ body {
   height: 100%;
   background: #f2f3f5;
 }
+html,body,h1,h2,h3,h4,h5,h6,p,div,table,thead,tbody,th,tr,td,ul,ol,li,dl,dt,dd,form,input,.main{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 100;
+}
+
+html,
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+img{
+  width:100%;
+  height:100%;
+}

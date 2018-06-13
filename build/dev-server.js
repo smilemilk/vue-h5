@@ -63,7 +63,7 @@ module.exports = app.listen(port, function (err) {
         return
     }
 
-    var uri = 'http://172.16.21.23:' + port + '/pages/rushPurchaseGood.html?activityLinkId=26' // 直接显示页面
+    var uri = 'http://172.16.21.23:' + port + '/pages/insurancePolicyDetail.html' // 直接显示页面
     // console.log('Listening at ' + uri + '\n')
     opn(uri)
 })
