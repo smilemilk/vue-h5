@@ -1,5 +1,19 @@
 <template>
     <div class="goods" v-if="dataDetail.detail">
+      <ul class="mui-table-view">
+        <li class="mui-table-view-cell mui-collapse">
+          <a class="mui-navigate-right" href="#">面板1</a>
+          <div class="mui-collapse-content">
+            <p>面板1子内容</p>
+          </div>
+        </li>
+      </ul>
+      <span class="mui-badge">1</span>
+      <span class="mui-badge mui-badge-primary">12</span>
+      <span class="mui-badge mui-badge-success">123</span>
+      <span class="mui-badge mui-badge-warning">3</span>
+      <span class="mui-badge mui-badge-danger">45</span>
+      <span class="mui-badge mui-badge-purple">456</span>
       <div class="banner">
         <wc-swiper class="swiper" v-if="dataDetail.detail.slideshows">
           <wc-slide v-for="(item, index) in dataDetail.detail.slideshows" :key="index">
